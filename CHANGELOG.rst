@@ -2,6 +2,11 @@
 Changelog for package transform_graph
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2017-05-25)
+------------------
+* Added missing library export to CMakeLists.txt
+* Contributors: Justin Huang
+
 0.1.2 (2017-05-24)
 ------------------
 * Fixed CMakeLists.txt for dependent projects.
