@@ -1,0 +1,12 @@
+Source: ros-indigo-transform-graph
+Section: misc
+Priority: extra
+Maintainer: Justin Huang <jstn@cs.washington.edu>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all, ros-indigo-catkin, ros-indigo-cmake-modules, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-rosunit, ros-indigo-tf
+Homepage: http://wiki.ros.org/transform_graph
+Standards-Version: 3.9.2
+
+Package: ros-indigo-transform-graph
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-indigo-cmake-modules, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-tf
+Description: Library for computing transformations in arbitrary graph structures.
