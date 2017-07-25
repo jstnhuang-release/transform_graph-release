@@ -2,6 +2,11 @@
 Changelog for package transform_graph
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2017-07-24)
+------------------
+* Changed Markdown documentation to Doxygen format.
+* Contributors: Justin Huang
+
 0.2.0 (2017-07-12)
 ------------------
 * Added convenience method to get a Pose from a Transform.
