@@ -1,3 +1,26 @@
+## transform_graph (indigo) - 0.3.0-0
+
+The packages in the `transform_graph` repository were released into the `indigo` distro by running `/usr/bin/bloom-release transform_graph --track indigo --rosdistro indigo` on `Thu, 01 Feb 2018 04:52:01 -0000`
+
+The `transform_graph` package was released.
+
+Version of package(s) in repository `transform_graph`:
+
+- upstream repository: https://github.com/jstnhuang/transform_graph.git
+- release repository: https://github.com/jstnhuang-release/transform_graph-release.git
+- rosdistro version: `0.2.1-0`
+- old version: `0.2.1-0`
+- new version: `0.3.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.2`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.40`
+
+
 ## transform_graph (indigo) - 0.2.1-0
 
 The packages in the `transform_graph` repository were released into the `indigo` distro by running `/usr/bin/bloom-release transform_graph --track indigo --rosdistro indigo` on `Tue, 25 Jul 2017 00:00:31 -0000`
