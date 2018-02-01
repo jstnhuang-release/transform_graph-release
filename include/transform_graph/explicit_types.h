@@ -42,14 +42,18 @@ class LocalFrame {
  public:
   /// Constructor
   ///
+  /// A LocalFrame can actually be implicitly converted to from a string. In all
+  /// API methods, it is clear which frame is the local frame.
+  ///
   /// \param[in] id The name of the frame.
-  explicit LocalFrame(const std::string& id);
+  LocalFrame(const std::string& id);
+  LocalFrame(const char* id);
 
   /// \returns The name of the frame.
   std::string id() const;
 
  private:
-  const std::string& id_;
+  const std::string id_;
 };
 
 /// RefFrame represents the name of a transform's reference frame.
